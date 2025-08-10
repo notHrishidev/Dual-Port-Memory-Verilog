@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DualPortMem
-Sun Aug 10 01:52:42 2025
+Sun Aug 10 23:28:48 2025
 Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
@@ -44,7 +44,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Aug 10 01:52:42 2025          ;
+; Analysis & Synthesis Status        ; Successful - Sun Aug 10 23:28:48 2025          ;
 ; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
 ; Revision Name                      ; DualPortMem                                    ;
 ; Top-level Entity Name              ; DualPortMem                                    ;
@@ -275,7 +275,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:10     ;
+; Top            ; 00:00:11     ;
 +----------------+--------------+
 
 
@@ -285,12 +285,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
-    Info: Processing started: Sun Aug 10 01:52:26 2025
+    Info: Processing started: Sun Aug 10 23:28:30 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DualPortMem -c DualPortMem
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file dualportmem.v
     Info (12023): Found entity 1: DualPortMem File: C:/AAA_quickAccess/Dual Port Memory Verilog/DualPortMem.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file dualportmem_tb.v
+    Info (12023): Found entity 1: DualPortMem_tb File: C:/AAA_quickAccess/Dual Port Memory Verilog/DualPortMem_tb.v Line: 1
 Info (12127): Elaborating entity "DualPortMem" for the top level hierarchy
 Info (276014): Found 1 instances of uninferred RAM logic
     Info (276007): RAM logic "Mem" is uninferred due to asynchronous read logic File: C:/AAA_quickAccess/Dual Port Memory Verilog/DualPortMem.v Line: 28
@@ -303,8 +305,8 @@ Info (21057): Implemented 10205 device resources after synthesis - the final res
     Info (21061): Implemented 10119 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4901 megabytes
-    Info: Processing ended: Sun Aug 10 01:52:42 2025
-    Info: Elapsed time: 00:00:16
+    Info: Processing ended: Sun Aug 10 23:28:48 2025
+    Info: Elapsed time: 00:00:18
     Info: Total CPU time (on all processors): 00:00:25
 
 
